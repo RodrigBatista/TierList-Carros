@@ -5,7 +5,7 @@
 }
 
 header h1 {
-    font-size: 25px;
+    font-size: 35px;
     
 }
 
@@ -41,7 +41,7 @@ header nav li a {
 }
 
 .container {
-    max-width: 1150px;
+    max-width: 1250px;
     width: 100%;
     margin: 0 auto;
 }
@@ -81,7 +81,8 @@ section h2 {
     }
 
     section {
-        color: #182c61;
+    color: #182c61;
+    display: block
     }
 
     section p {
@@ -90,6 +91,12 @@ section h2 {
 
     .car-front {
         margin-right: 32px;
+        width: 650px;
+        height: 450px;
+    }
+
+    .car-right {
+        margin-left: 32px;
         width: 650px;
         height: 450px;
     }
