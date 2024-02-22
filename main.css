@@ -6,6 +6,7 @@
 
 header h1 {
     font-size: 25px;
+    
 }
 
 header, section h2, section h3, form button {
@@ -51,15 +52,20 @@ header .container, section .container {
     justify-content: space-between;
 }
 
-.brands-list img {
-    height: 24px;
+.logo {
+    height: 25px;
+    margin-left: 10px;
 }
 
+section h2 {
+    margin-bottom: 10px;
+}
 
-    .brands-list li {
-        display: inline;
-        margin-right: 8px;
-    }
+.alinhamento {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
 
     section .container {
         align-items: flex-start;
@@ -70,7 +76,7 @@ header .container, section .container {
     }
 
     section h2 {
-        margin-bottom: 16px;
+        margin-bottom: auto;
         font-size: 22px;
     }
 
@@ -82,10 +88,10 @@ header .container, section .container {
         margin-bottom: 8px;
     }
 
-    .store-front {
+    .car-front {
         margin-right: 32px;
         width: 650px;
-        height: 500px;
+        height: 450px;
     }
     
     .social-links img {
