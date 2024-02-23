@@ -6,7 +6,7 @@
 
 header h1 {
     font-size: 35px;
-    
+    margin-right: 75px;
 }
 
 header, section h2, section h3, form button {
@@ -26,13 +26,18 @@ body {
 header {
     padding: 16px 0;
     background-color: #182c61;
-    color: #ecf0f1;
+    color: #f1f0ec;
+}
+
+#logomarca {
+    width: 90px;
+    margin-right: 10px;
 }
 
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 header nav li a {
@@ -46,14 +51,14 @@ header nav li a {
     margin: 0 auto;
 }
 
-header .container, section .container {
+header .container, section .container, h1 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    text-align: left;
 }
 
 .logo {
-    height: 25px;
+    height: 26px;
     margin-left: 10px;
 }
 
@@ -77,7 +82,7 @@ section h2 {
 
     section h2 {
         margin-bottom: auto;
-        font-size: 22px;
+        font-size: 25px;
     }
 
     section {
